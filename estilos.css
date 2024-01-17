@@ -1,0 +1,28 @@
+p[class="tamaño"]{
+	font-size: 40px;
+}
+
+p[class=rojo]{
+	color: red;
+}
+
+p[class~="valor"]{
+  text-align: right;
+}
+
+p[class^="valor"]{
+	color: rgb(230, 17, 70);
+}
+
+
+img[src$="jpg"]{
+	border:3px solid rgb(23, 230, 116);
+}
+
+a[href*="hola"]{
+	border: 2px solid black;
+}
+
+p[class|=valor-azul]{
+	color: blue;
+}
